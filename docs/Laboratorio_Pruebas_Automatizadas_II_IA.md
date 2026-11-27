@@ -15,9 +15,9 @@
 
 | # | Nombre completo |
 |---|-----------------|
-| 1 | |
-| 2 | |
-| 3 | |
+| 1 | Daniel Ardila Zabala |
+| 2 | No aplica — trabajo individual |
+| 3 | No aplica |
 
 ---
 
