@@ -1,0 +1,52 @@
+[
+  {
+    "prioridad": 1,
+    "id": "R01",
+    "riesgo": "Salidas mayores al disponible",
+    "impacto": "Alto",
+    "probabilidad": "Alta",
+    "modulo": "Movimientos",
+    "prueba": "OUT 10 con stock 3; nunca permitir negativo",
+    "consecuencia": "Entrega ficticia y falta de insumos en laboratorio"
+  },
+  {
+    "prioridad": 2,
+    "id": "R02",
+    "riesgo": "Valor de inventario incorrecto",
+    "impacto": "Alto",
+    "probabilidad": "Media",
+    "modulo": "Dashboard",
+    "prueba": "Recalcular Σ stock × precio en COP y comparar",
+    "consecuencia": "Decisiones presupuestales y auditoria equivocadas"
+  },
+  {
+    "prioridad": 3,
+    "id": "R06",
+    "riesgo": "ADJUST suma en vez de fijar el conteo",
+    "impacto": "Alto",
+    "probabilidad": "Media",
+    "modulo": "Movimientos",
+    "prueba": "Stock 10; conteo 4; esperado final 4",
+    "consecuencia": "Diferencias fisicas se amplifican al conciliar"
+  },
+  {
+    "prioridad": 4,
+    "id": "R05",
+    "riesgo": "CSV incompleto",
+    "impacto": "Alto",
+    "probabilidad": "Media",
+    "modulo": "Exportacion",
+    "prueba": "Comparar cantidad e identidad de filas con catalogo",
+    "consecuencia": "Conciliacion y soportes de auditoria incompletos"
+  },
+  {
+    "prioridad": 5,
+    "id": "R03",
+    "riesgo": "Operador altera el catalogo",
+    "impacto": "Alto",
+    "probabilidad": "Media",
+    "modulo": "Roles",
+    "prueba": "Separar controles UI de rechazo del servidor",
+    "consecuencia": "Cambios no autorizados de precios y productos"
+  }
+]
